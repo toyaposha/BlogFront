@@ -1,0 +1,21 @@
+.header{
+    padding: 15px 0;
+    background-color:rgb(167, 29, 29);
+    &-btns{
+        display: flex;
+        gap: 10px
+    }
+    &-logo {
+        color:#eae2e2;
+        font-size: 30px;
+        font-weight: 700;
+        padding-top: 15px;
+    
+        .icon{
+          
+            width: 40px;
+            height: 40px;
+        }
+       
+    }
+}

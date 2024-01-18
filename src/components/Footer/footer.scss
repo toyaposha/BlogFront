@@ -1,0 +1,114 @@
+.footer{
+    
+    background-color:rgb(43, 43, 43) ;
+    &-empty{
+     background-color:black;
+    height: 50px;
+    }
+    .container{
+        display: flex;
+        justify-content: space-around;
+        padding: 15px 0 15px 0
+    }
+    &-social{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    
+            
+        p{
+            color: white;
+            text-align: left;
+            font-family: 'Raleway';
+            font-weight: 500;
+            padding: 10px 0 10px 0
+        }
+        .logo{
+            color:red;
+        }
+        .social{
+            display: flex;
+            list-style-type: none;
+            padding-left: 0;
+            margin-left: 0;
+        
+            li{
+                align-items: center;
+                margin: 15px;
+                padding: 3px;
+                border-radius: 100%;
+                width: 30px;
+                height: 30px;
+                background-color: white;
+                margin-left: 10px;
+                &:hover{
+                    background-color:#8e1d1d;
+                }
+              a{
+              color:red;
+              &:hover{
+                 color: white;
+              }
+              }
+            }
+        }
+    }
+
+    &-done-by{
+        background-color: #8e1d1d;
+        color: white;
+        height: 50px;
+        text-align: center;
+        padding:1px;
+    }
+    &-quick-link{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        h2{
+            color: red;
+        }
+        ul{
+            padding-left: 0;
+            margin-left: 0;
+        }
+        li{
+            list-style-type: none;
+            color: white;
+            font-family: 'Runway';
+            font-size: medium;
+            padding: 0 0 8px;
+            font-weight: 500;
+            &:hover{
+                color: red;
+                font-size: large;
+            }
+        }
+    }
+   &-contact{
+    display: flex;
+    flex-direction: column;
+    h2{
+        color: red;
+    }
+   }
+   &-contact-info{
+    color: white;
+    display: flex;
+    flex-direction: column;
+  
+    li{
+        display: flex;
+        align-items: center;
+
+        h4{
+            margin-left: 10px;
+        }
+        &:hover{
+            color: red;
+        }
+
+    }
+    
+   }
+}
